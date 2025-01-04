@@ -164,6 +164,16 @@ ul li a:hover {
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
+
+  @media (max-width: 600px) {
+    :root {
+      --bg-url: url(./assets/bg-mobile.jpg);
+    }
+
+    .light {
+      --bg-url: url(./assets/bg-mobile.jpg);
+    }
+  }
 }
 
 /* animation */
