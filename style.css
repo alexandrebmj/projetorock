@@ -34,6 +34,7 @@ body {
 
   /*background: color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover;
+  background-color: green;
   height: 100vh;
 }
 
